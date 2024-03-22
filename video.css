@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Google Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #FFC107);
+ padding: 20px;
+
+}
+
+.content{
+    background-image: url("../IAMMUSIC.png");
+    background-size: cover;
+    padding: 8px;   
+}
+
+header {
+    font-family: 'Google Sans', Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.album-cover img {
+    width: 100px;
+    height: auto; 
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+footer {
+    background-color: blueviolet;
+
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
+header{
+    background: linear-gradient(to right, #4CAF50, #FFC107);
+ padding: 20px;
+}
+ .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.content .merchandise-item {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+}
+
+.content .merchandise-item img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+.content .merchandise-item h3 {
+    margin-top: 0;
+    
+}
+
+.content .merchandise-item p {
+    margin-bottom: 10px;
+}
+
+.content .merchandise-item button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer; 
+}
+
+.content .merchandise-item button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: blueviolet;
+
+}

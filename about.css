@@ -1,0 +1,90 @@
+body {
+    font-family: 'Google Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    background-image: url("../IAMMUSIC.png");
+    background-size: cover;
+    padding: 8px;
+}
+
+header {
+ background: linear-gradient(to right, #4CAF50, #FFC107);
+     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Google Sans', Arial, sans-serif;
+    grid-column: span 3; 
+}
+
+.album-cover img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content h2 {
+    margin-top: 20px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.content ol {
+    padding-left: 20px;
+}
+
+.content ol li {
+    margin-bottom: 10px;
+}
+
+#s1 {
+    background-color: rgb(67, 208, 208);
+ }
+ 
+ #s2 {
+    background-color: rgb(33, 237, 57);
+ }
+ 
+ #s3 {
+    background-color: rgb(205, 48, 34);
+ }
+
+ #s4 {
+    background-color: aqua;
+ }
+ 
+ 
+
+footer {
+    background-color: blueviolet;
+    grid-column: span 3;
+}
